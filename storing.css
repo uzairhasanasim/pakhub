@@ -1,0 +1,157 @@
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+
+#idlogin{
+font-family: roboto;
+font-size: larger;
+font-weight: 200;
+text-align: center;
+color: white;
+animation: idlogin;
+animation-iteration-count: 1;
+animation-play-state: running;
+animation-duration: 3s;
+}
+@keyframes idlogin {
+    from{margin-left:100%;
+    opacity: 0%;}
+    to{margin-right: 0%;
+    opacity: 100%;}
+}
+#idemail{
+font-family: roboto;
+font-size: 150%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+color: white;
+
+}
+#id1{
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+#idpassword{
+    font-family: roboto;
+font-size: 150%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+color: white;
+}
+#id2{
+    font-family: roboto;
+font-size: large;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+
+}
+.s2{
+    border-radius: 12px;
+    font-size: large;
+    text-align: center;
+    width: 250px; 
+    padding: 5px;
+}
+.s1{
+    border-radius: 12px;
+    font-size: medium;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 8px;
+}
+.s3{
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-size: x-large;
+    background-color: rgb(225, 225, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 16px;
+    border-color: rgb(255, 255, 0);
+    width: 350PX;
+    font-family: roboto;
+    animation: myslide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+#id3{
+    text-align: center;
+    border-radius: 12px;
+}
+body{
+    background-image:  url(pexels-bri-schneiter-346529.jpg);
+    margin: 0px;
+    
+}
+#firstheading{
+    image-resolution: 1080*1900;
+    
+}
+.firstone{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nazi{
+font-family: BebasNeue;
+color:yellow;
+font-size: xx-large;
+text-decoration: solid;
+margin-top:0px;
+
+}
+.nazi{
+margin-top: 0px;
+
+}
+
+#contactid{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    margin-top: 0px;
+    padding-right: 22px;
+    margin-top: 0px;
+    
+}
+.contact{
+    margin-top: 0px;
+    font-size: larger;
+    font-family: Roboto;
+}
+
+#contactid a{
+    color: rgb(255, 255, 0);
+}
+#id4{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: yellow;
+    animation: myslide;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+}
+@keyframes myslide {
+    from{opacity: 0%;}
+    to{opacity: 100%;}
+    
+}
+#id4 a{
+    color: yellow;
+  
+}
